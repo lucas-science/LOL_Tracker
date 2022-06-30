@@ -13,6 +13,7 @@
     "dependencies": {
         "axios": "^0.27.2",
         "discord.js": "^13.0.0-dev.fdad14099779e61cb84dcd1cb2497e0e853a6144",
+        "dotenv": "^16.0.1",
         "nodemon": "^2.0.18",
         "xhr2": "^0.2.1"
     }

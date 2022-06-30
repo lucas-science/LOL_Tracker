@@ -1,3 +1,8 @@
+const path = require('path')
+const dotenv = require('dotenv').config({
+    path: path.join(__dirname, '.env')
+});
+
 // Require the necessary discord.js classes
 const { Client, Intents } = require('discord.js');
 
