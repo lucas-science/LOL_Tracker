@@ -1,0 +1,19 @@
+{
+    "name": "discordlolbot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon -e js,twig index.js",
+        "watch": "nodemon -e js,twig Bot.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "discord.js": "^13.0.0-dev.fdad14099779e61cb84dcd1cb2497e0e853a6144",
+        "nodemon": "^2.0.18",
+        "xhr2": "^0.2.1"
+    }
+}
