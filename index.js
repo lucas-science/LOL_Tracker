@@ -64,7 +64,7 @@ const SendMessageOfPeopleWhoIsInGame = (element) => {
 
             const Send = await isNewGame(element, res.data.data.game_id)
             if (Send.SendDiscordMessage) {
-                sendMessage(channel_id, `Aujourd'hui ${element.name} est à ça ${Send.numberOfGames}ème game de la journée sur league of legends. `).then(status => console.log(status))
+                sendMessage(channel_id, `${element.name} a fait ${Send.numberOfGames} games aujourd'hui sur League Of Legends. `).then(status => console.log(status))
             }
         })
         .catch(res => console.log(`${element.name} isn't in game`))
